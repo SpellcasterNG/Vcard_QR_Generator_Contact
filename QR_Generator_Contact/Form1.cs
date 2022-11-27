@@ -1,17 +1,8 @@
-﻿using Gma.QrCodeNet.Encoding;
-using Gma.QrCodeNet.Encoding.Windows.Render;
+﻿using QRCoder;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static QRCoder.PayloadGenerator;
 
 namespace QR_Generator_Contact
 {
@@ -40,22 +31,21 @@ namespace QR_Generator_Contact
                 Telefono = textBox_Telefono.Text
 
             };
-            QrEncoder qrEncoder = new QrEncoder();
-            QrEncoder qrEncoder1 = new QrEncoder();
-            QrCode qrCode = new QrCode();
-            string holatu = "Nombre:"+ Carga_Usuario.Nombre + ", Posicion:" + Carga_Usuario.Posicion+", Direccion: "+ Carga_Usuario.Direccion+", Correo: "+ Carga_Usuario.Correo + ", Celular:" + Carga_Usuario.Celular+ ", Telefono:"+ Carga_Usuario.Telefono;
-            qrEncoder.TryEncode(Convert.ToString(holatu), out qrCode);
-            //qrEncoder1.
-            GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
-            MemoryStream ms = new MemoryStream();
-            renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
-            var imageTemporal = new Bitmap(ms);
-            var image = new Bitmap(imageTemporal, new Size(new Point(200,200)));
+
+            var gen = new ContactData(ContactData.ContactOutputType.VCard4, Carga_Usuario.Nombre, string.Empty, phone: Carga_Usuario.Telefono, mobilePhone: Carga_Usuario.Celular, email: Carga_Usuario.Correo, street: Carga_Usuario.Direccion);
+            var payload = gen.ToString();
+            var qrGenerator = new QRCodeGenerator();
+            var qrCodeData = qrGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
+            var qrCode = new QRCode(qrCodeData);
+            var qrCodeAsBitmap = qrCode.GetGraphic(20);
+
+            var image = new Bitmap(qrCodeAsBitmap, new Size(new Point(200, 200)));
             pictureBox_QR.BackgroundImage = image;
         }
 
+        private void textBox_Telefono_TextChanged(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 }

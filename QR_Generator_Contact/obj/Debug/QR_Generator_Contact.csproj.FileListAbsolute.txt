@@ -9,7 +9,5 @@ C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Cont
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.CoreCompileInputs.cache
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.exe
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.pdb
-C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.xml
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.CopyComplete
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QRCoder.dll
