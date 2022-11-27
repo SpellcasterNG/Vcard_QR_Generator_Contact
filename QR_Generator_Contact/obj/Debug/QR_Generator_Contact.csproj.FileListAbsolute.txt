@@ -1,0 +1,15 @@
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QR_Generator_Contact.exe.config
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QR_Generator_Contact.exe
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QR_Generator_Contact.pdb
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.AssemblyReference.cache
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.SuggestedBindingRedirects.cache
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.Form1.resources
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.Properties.Resources.resources
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.GenerateResource.cache
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.CoreCompileInputs.cache
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.exe
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.pdb
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.CopyComplete
