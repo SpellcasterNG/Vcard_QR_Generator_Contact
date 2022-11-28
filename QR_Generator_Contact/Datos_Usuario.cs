@@ -21,5 +21,7 @@ namespace QR_Generator_Contact
         public string Celular { get; set; }
         [Required]
         public string Telefono { get; set; }
+        public string Pagina { get; set; }
+        public string Empresa { get; set; }
     }
 }
