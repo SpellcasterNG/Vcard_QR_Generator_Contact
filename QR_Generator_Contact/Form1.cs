@@ -61,7 +61,7 @@ namespace QR_Generator_Contact
             var qrGenerator = new QRCodeGenerator();
             var qrCodeData = qrGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
             var qrCode = new QRCode(qrCodeData);
-            var qrCodeAsBitmap = qrCode.GetGraphic(20);
+            var qrCodeAsBitmap = qrCode.GetGraphic(20, Color.Blue, Color.White,true);
 
             var image = new Bitmap(qrCodeAsBitmap, new Size(new Point(250, 250)));
             pictureBox_QR.BackgroundImage = image;

@@ -180,7 +180,7 @@
             // pictureBox_QR
             // 
             this.pictureBox_QR.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox_QR.Location = new System.Drawing.Point(618, 71);
+            this.pictureBox_QR.Location = new System.Drawing.Point(619, 39);
             this.pictureBox_QR.Name = "pictureBox_QR";
             this.pictureBox_QR.Size = new System.Drawing.Size(250, 250);
             this.pictureBox_QR.TabIndex = 14;
