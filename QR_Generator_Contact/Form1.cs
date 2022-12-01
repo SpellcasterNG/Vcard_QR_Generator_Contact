@@ -1,6 +1,7 @@
 ﻿using QRCoder;
 using System;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Windows.Forms;
 using static QRCoder.PayloadGenerator;
 
@@ -65,6 +66,7 @@ namespace QR_Generator_Contact
 
             var image = new Bitmap(qrCodeAsBitmap, new Size(new Point(250, 250)));
             pictureBox_QR.BackgroundImage = image;
+            button_Guardar_QR.Enabled = true;
         }
         private void textBox_Telefono_TextChanged(object sender, EventArgs e)
         {
@@ -77,6 +79,35 @@ namespace QR_Generator_Contact
             {
                 e.Handled = true;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pictureBox1.BackgroundImage = null;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/SpellcasterNG/Vcard_QR_Generator_Contact");
+        }
+
+        private void button_Guardar_QR_Click(object sender, EventArgs e)
+        {
+            Image image= (Image)pictureBox1.BackgroundImage.Clone();
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.AddExtension = true;
+            saveFileDialog.Filter = "Image PNG (*.png)|*.png";
+            saveFileDialog.ShowDialog();
+            if (!string.IsNullOrEmpty(saveFileDialog.FileName))
+            {
+                image.Save(saveFileDialog.FileName, ImageFormat.Png);
+            }
+            image.Dispose();
         }
     }
 }
