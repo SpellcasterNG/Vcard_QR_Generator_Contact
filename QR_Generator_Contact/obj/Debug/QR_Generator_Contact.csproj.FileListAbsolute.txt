@@ -11,3 +11,7 @@ C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Cont
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.csproj.CopyComplete
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.exe
 C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.pdb
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QR_Generator_Contact.exe.manifest
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\bin\Debug\QR_Generator_Contact.application
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.exe.manifest
+C:\Users\michael.miliano\Desktop\BootCamp\QR_Generator_Contact\QR_Generator_Contact\obj\Debug\QR_Generator_Contact.application
