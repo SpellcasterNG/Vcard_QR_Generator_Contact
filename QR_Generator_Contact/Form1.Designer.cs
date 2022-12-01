@@ -47,13 +47,16 @@
             this.textBox_Empresa = new System.Windows.Forms.TextBox();
             this.Label_Pagina = new System.Windows.Forms.Label();
             this.Label_Empresa = new System.Windows.Forms.Label();
+            this.textBox_QR_Color = new System.Windows.Forms.TextBox();
+            this.label_QR_Color = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_QR)).BeginInit();
             this.SuspendLayout();
             // 
             // Label_Nombre
             // 
             this.Label_Nombre.AutoSize = true;
-            this.Label_Nombre.Location = new System.Drawing.Point(16, 87);
+            this.Label_Nombre.Location = new System.Drawing.Point(27, 124);
+            this.Label_Nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Nombre.Name = "Label_Nombre";
             this.Label_Nombre.Size = new System.Drawing.Size(59, 16);
             this.Label_Nombre.TabIndex = 0;
@@ -62,7 +65,8 @@
             // Label_Posicion
             // 
             this.Label_Posicion.AutoSize = true;
-            this.Label_Posicion.Location = new System.Drawing.Point(13, 152);
+            this.Label_Posicion.Location = new System.Drawing.Point(23, 204);
+            this.Label_Posicion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Posicion.Name = "Label_Posicion";
             this.Label_Posicion.Size = new System.Drawing.Size(62, 16);
             this.Label_Posicion.TabIndex = 1;
@@ -71,7 +75,8 @@
             // Label_Telefono
             // 
             this.Label_Telefono.AutoSize = true;
-            this.Label_Telefono.Location = new System.Drawing.Point(11, 213);
+            this.Label_Telefono.Location = new System.Drawing.Point(21, 279);
+            this.Label_Telefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Telefono.Name = "Label_Telefono";
             this.Label_Telefono.Size = new System.Drawing.Size(64, 16);
             this.Label_Telefono.TabIndex = 2;
@@ -80,7 +85,8 @@
             // Label_Correo
             // 
             this.Label_Correo.AutoSize = true;
-            this.Label_Correo.Location = new System.Drawing.Point(297, 152);
+            this.Label_Correo.Location = new System.Drawing.Point(402, 204);
+            this.Label_Correo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Correo.Name = "Label_Correo";
             this.Label_Correo.Size = new System.Drawing.Size(51, 16);
             this.Label_Correo.TabIndex = 3;
@@ -90,7 +96,8 @@
             // Label_Direccion
             // 
             this.Label_Direccion.AutoSize = true;
-            this.Label_Direccion.Location = new System.Drawing.Point(283, 87);
+            this.Label_Direccion.Location = new System.Drawing.Point(383, 124);
+            this.Label_Direccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Direccion.Name = "Label_Direccion";
             this.Label_Direccion.Size = new System.Drawing.Size(67, 16);
             this.Label_Direccion.TabIndex = 4;
@@ -99,7 +106,8 @@
             // Label_Celular
             // 
             this.Label_Celular.AutoSize = true;
-            this.Label_Celular.Location = new System.Drawing.Point(296, 213);
+            this.Label_Celular.Location = new System.Drawing.Point(401, 279);
+            this.Label_Celular.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Celular.Name = "Label_Celular";
             this.Label_Celular.Size = new System.Drawing.Size(52, 16);
             this.Label_Celular.TabIndex = 5;
@@ -107,26 +115,29 @@
             // 
             // textBox_Nombre
             // 
-            this.textBox_Nombre.Location = new System.Drawing.Point(69, 84);
+            this.textBox_Nombre.Location = new System.Drawing.Point(98, 120);
+            this.textBox_Nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Nombre.Name = "textBox_Nombre";
-            this.textBox_Nombre.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Nombre.Size = new System.Drawing.Size(276, 22);
             this.textBox_Nombre.TabIndex = 6;
             this.textBox_Nombre.Text = "michael miliano";
             // 
             // textBox_posicion
             // 
-            this.textBox_posicion.Location = new System.Drawing.Point(69, 149);
+            this.textBox_posicion.Location = new System.Drawing.Point(98, 200);
+            this.textBox_posicion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_posicion.Name = "textBox_posicion";
-            this.textBox_posicion.Size = new System.Drawing.Size(208, 22);
+            this.textBox_posicion.Size = new System.Drawing.Size(276, 22);
             this.textBox_posicion.TabIndex = 7;
             this.textBox_posicion.Text = "Soporte Aplicaciones IT";
             // 
             // textBox_Telefono
             // 
-            this.textBox_Telefono.Location = new System.Drawing.Point(69, 210);
+            this.textBox_Telefono.Location = new System.Drawing.Point(98, 275);
+            this.textBox_Telefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Telefono.MaxLength = 10;
             this.textBox_Telefono.Name = "textBox_Telefono";
-            this.textBox_Telefono.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Telefono.Size = new System.Drawing.Size(276, 22);
             this.textBox_Telefono.TabIndex = 8;
             this.textBox_Telefono.Text = "8092201111";
             this.textBox_Telefono.TextChanged += new System.EventHandler(this.textBox_Telefono_TextChanged);
@@ -134,35 +145,39 @@
             // 
             // textBox_Celular
             // 
-            this.textBox_Celular.Location = new System.Drawing.Point(344, 210);
+            this.textBox_Celular.Location = new System.Drawing.Point(465, 275);
+            this.textBox_Celular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Celular.MaxLength = 10;
             this.textBox_Celular.Name = "textBox_Celular";
-            this.textBox_Celular.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Celular.Size = new System.Drawing.Size(276, 22);
             this.textBox_Celular.TabIndex = 9;
             this.textBox_Celular.Text = "8094132620";
             this.textBox_Celular.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_Telefono_KeyPress);
             // 
             // textBox_Direccion
             // 
-            this.textBox_Direccion.Location = new System.Drawing.Point(344, 84);
+            this.textBox_Direccion.Location = new System.Drawing.Point(465, 120);
+            this.textBox_Direccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Direccion.Name = "textBox_Direccion";
-            this.textBox_Direccion.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Direccion.Size = new System.Drawing.Size(276, 22);
             this.textBox_Direccion.TabIndex = 10;
             this.textBox_Direccion.Text = "santo domingo distrito nacional";
             // 
             // textBox_Correo
             // 
-            this.textBox_Correo.Location = new System.Drawing.Point(344, 149);
+            this.textBox_Correo.Location = new System.Drawing.Point(465, 200);
+            this.textBox_Correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Correo.Name = "textBox_Correo";
-            this.textBox_Correo.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Correo.Size = new System.Drawing.Size(276, 22);
             this.textBox_Correo.TabIndex = 11;
             this.textBox_Correo.Text = "michael.miliano@dif.com.do";
             // 
             // button_Generar_QR
             // 
-            this.button_Generar_QR.Location = new System.Drawing.Point(69, 298);
+            this.button_Generar_QR.Location = new System.Drawing.Point(98, 384);
+            this.button_Generar_QR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_Generar_QR.Name = "button_Generar_QR";
-            this.button_Generar_QR.Size = new System.Drawing.Size(208, 23);
+            this.button_Generar_QR.Size = new System.Drawing.Size(277, 28);
             this.button_Generar_QR.TabIndex = 12;
             this.button_Generar_QR.Text = "Generar QR";
             this.button_Generar_QR.UseVisualStyleBackColor = true;
@@ -170,9 +185,10 @@
             // 
             // button_Guardar_QR
             // 
-            this.button_Guardar_QR.Location = new System.Drawing.Point(344, 298);
+            this.button_Guardar_QR.Location = new System.Drawing.Point(465, 384);
+            this.button_Guardar_QR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_Guardar_QR.Name = "button_Guardar_QR";
-            this.button_Guardar_QR.Size = new System.Drawing.Size(208, 23);
+            this.button_Guardar_QR.Size = new System.Drawing.Size(277, 28);
             this.button_Guardar_QR.TabIndex = 13;
             this.button_Guardar_QR.Text = "Gguadar";
             this.button_Guardar_QR.UseVisualStyleBackColor = true;
@@ -180,32 +196,36 @@
             // pictureBox_QR
             // 
             this.pictureBox_QR.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox_QR.Location = new System.Drawing.Point(619, 39);
+            this.pictureBox_QR.Location = new System.Drawing.Point(825, 104);
+            this.pictureBox_QR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox_QR.Name = "pictureBox_QR";
-            this.pictureBox_QR.Size = new System.Drawing.Size(250, 250);
+            this.pictureBox_QR.Size = new System.Drawing.Size(333, 308);
             this.pictureBox_QR.TabIndex = 14;
             this.pictureBox_QR.TabStop = false;
             // 
             // textBox_Pagina
             // 
-            this.textBox_Pagina.Location = new System.Drawing.Point(344, 267);
+            this.textBox_Pagina.Location = new System.Drawing.Point(465, 346);
+            this.textBox_Pagina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Pagina.Name = "textBox_Pagina";
-            this.textBox_Pagina.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Pagina.Size = new System.Drawing.Size(276, 22);
             this.textBox_Pagina.TabIndex = 18;
             this.textBox_Pagina.Text = "google.com.do";
             // 
             // textBox_Empresa
             // 
-            this.textBox_Empresa.Location = new System.Drawing.Point(69, 267);
+            this.textBox_Empresa.Location = new System.Drawing.Point(98, 346);
+            this.textBox_Empresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Empresa.Name = "textBox_Empresa";
-            this.textBox_Empresa.Size = new System.Drawing.Size(208, 22);
+            this.textBox_Empresa.Size = new System.Drawing.Size(276, 22);
             this.textBox_Empresa.TabIndex = 17;
             this.textBox_Empresa.Text = "Dominican International Forwarding";
             // 
             // Label_Pagina
             // 
             this.Label_Pagina.AutoSize = true;
-            this.Label_Pagina.Location = new System.Drawing.Point(296, 269);
+            this.Label_Pagina.Location = new System.Drawing.Point(401, 348);
+            this.Label_Pagina.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Pagina.Name = "Label_Pagina";
             this.Label_Pagina.Size = new System.Drawing.Size(53, 16);
             this.Label_Pagina.TabIndex = 16;
@@ -214,17 +234,39 @@
             // Label_Empresa
             // 
             this.Label_Empresa.AutoSize = true;
-            this.Label_Empresa.Location = new System.Drawing.Point(11, 269);
+            this.Label_Empresa.Location = new System.Drawing.Point(21, 348);
+            this.Label_Empresa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Empresa.Name = "Label_Empresa";
             this.Label_Empresa.Size = new System.Drawing.Size(65, 16);
             this.Label_Empresa.TabIndex = 15;
             this.Label_Empresa.Text = "Empresa:";
             // 
+            // textBox_QR_Color
+            // 
+            this.textBox_QR_Color.Location = new System.Drawing.Point(1040, 62);
+            this.textBox_QR_Color.MaxLength = 6;
+            this.textBox_QR_Color.Name = "textBox_QR_Color";
+            this.textBox_QR_Color.Size = new System.Drawing.Size(118, 22);
+            this.textBox_QR_Color.TabIndex = 19;
+            this.textBox_QR_Color.Text = "000000";
+            // 
+            // label_QR_Color
+            // 
+            this.label_QR_Color.AutoSize = true;
+            this.label_QR_Color.Location = new System.Drawing.Point(822, 65);
+            this.label_QR_Color.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label_QR_Color.Name = "label_QR_Color";
+            this.label_QR_Color.Size = new System.Drawing.Size(148, 16);
+            this.label_QR_Color.TabIndex = 20;
+            this.label_QR_Color.Text = "Color QR Hexadecimal:";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(910, 358);
+            this.ClientSize = new System.Drawing.Size(1213, 441);
+            this.Controls.Add(this.label_QR_Color);
+            this.Controls.Add(this.textBox_QR_Color);
             this.Controls.Add(this.textBox_Pagina);
             this.Controls.Add(this.textBox_Empresa);
             this.Controls.Add(this.Label_Pagina);
@@ -244,6 +286,7 @@
             this.Controls.Add(this.Label_Telefono);
             this.Controls.Add(this.Label_Posicion);
             this.Controls.Add(this.Label_Nombre);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "SP QR Generator Contact";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_QR)).EndInit();
@@ -273,6 +316,8 @@
         private System.Windows.Forms.TextBox textBox_Empresa;
         private System.Windows.Forms.Label Label_Pagina;
         private System.Windows.Forms.Label Label_Empresa;
+        private System.Windows.Forms.TextBox textBox_QR_Color;
+        private System.Windows.Forms.Label label_QR_Color;
     }
 }
 
