@@ -93,7 +93,7 @@
             // 
             this.Label_Correo.AutoSize = true;
             this.Label_Correo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Correo.Location = new System.Drawing.Point(402, 204);
+            this.Label_Correo.Location = new System.Drawing.Point(402, 200);
             this.Label_Correo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Correo.Name = "Label_Correo";
             this.Label_Correo.Size = new System.Drawing.Size(60, 20);

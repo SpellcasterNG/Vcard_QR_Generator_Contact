@@ -57,7 +57,7 @@ namespace QR_Generator_Contact
                 Pagina = textBox_Pagina.Text,
                 Empresa = textBox_Empresa.Text,
             };
-            var gen = new ContactData(ContactData.ContactOutputType.VCard4, Carga_Usuario.Nombre, string.Empty, workPhone: Carga_Usuario.Telefono, mobilePhone: Carga_Usuario.Celular, email: Carga_Usuario.Correo, street: Carga_Usuario.Direccion, orgTitle: Carga_Usuario.Posicion, website:Carga_Usuario.Pagina, org:Carga_Usuario.Empresa);
+            var gen = new ContactData(ContactData.ContactOutputType.VCard21, Carga_Usuario.Nombre, string.Empty, workPhone: Carga_Usuario.Telefono, mobilePhone: Carga_Usuario.Celular, email: Carga_Usuario.Correo, street: Carga_Usuario.Direccion, orgTitle: Carga_Usuario.Posicion, website:Carga_Usuario.Pagina, org:Carga_Usuario.Empresa);
             var payload = gen.ToString();
             var qrGenerator = new QRCodeGenerator();
             var qrCodeData = qrGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
@@ -98,7 +98,7 @@ namespace QR_Generator_Contact
 
         private void button_Guardar_QR_Click(object sender, EventArgs e)
         {
-            Image image= (Image)pictureBox1.BackgroundImage.Clone();
+            Image image= (Image)pictureBox_QR.BackgroundImage.Clone();
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.AddExtension = true;
             saveFileDialog.Filter = "Image PNG (*.png)|*.png";
